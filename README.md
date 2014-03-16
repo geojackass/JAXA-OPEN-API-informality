@@ -15,7 +15,7 @@ JAXA-OPEN-API-informality
 git clone git://github.com/JAXA-OPEN-API/example_api
 ```
 - 作業後にディレクトリ内容を確認した。
-	- example_api/client/sample03に実行権限がないことが確認された。
+	- example_api/client/sample03.htmlに実行権限がないことが確認された。
 
 <img src=sc2014-03-17d.png>
 
