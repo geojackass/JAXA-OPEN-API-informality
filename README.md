@@ -16,12 +16,16 @@ git clone git://github.com/JAXA-OPEN-API/example_api
 ```
 - 作業後にディレクトリ内容を確認した。
 	- example_api/client/sample03に実行権限がないことが確認された。
+
 <img src=sc2014-03-17d.png>
 
-	- 実行権限を付与した。
+- 実行権限を付与した。
+
+
 ```
 chmod + x sample003.html
 ```
+
 <img src=sc2014-03-17e.png>
 
 - firefoxで表示した。
@@ -34,29 +38,39 @@ chmod + x sample003.html
 
 ### 通常のweb APIのリクエストを行う
 
-- 指定地点の物理量を取得する 
-	- request format xml
+#### 指定地点の物理量を取得する
+
+- request format xml
+
 ```
 https://joa.epi.bz/api/prcavg?token=TOKEN_Lu2C_&date2012-08-01&lat=30.2&lon=130.5
 ```
+
 <img src=open-api_get001.png>
 
-	- request format JSON
+- request format JSON
+
+
 ```
 https://joa.epi.bz/api/prcavg?token=TOKEN_Lu2C_&date2012-08-01&lat=30.2&lon=130.5&format=JSON
 ```
+
 <img src=open-api_get002.png>
 
 
+#### 指定範囲の物理量をすべて取得する 
 
-- 指定範囲の物理量をすべて取得する 
-	- request format xml
+- request format xml
+
 ```
 https://joa.epi.bz/api/prcall?token=TOKEN_Lu2C_&date2012-08-01&lat=30.2&lon=130.5
 ```
+
 <img src=open-api_get003.png>
 
-	- request format JSON
+- request format JSON
+
+
 ```
 https://joa.epi.bz/api/prcall?token=TOKEN_Lu2C_&date2012-08-01&lat=30.2&lon=130.5&format=JSON
 ```
