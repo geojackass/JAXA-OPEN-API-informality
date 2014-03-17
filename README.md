@@ -23,7 +23,7 @@ git clone git://github.com/JAXA-OPEN-API/example_api
 
 
 ```
-chmod + x sample003.html
+chmod +x sample003.html
 ```
 
 <img src=sc2014-03-17e.png>
@@ -43,7 +43,7 @@ chmod + x sample003.html
 - request format xml
 
 ```
-https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date2012-08-01&lat=30.2&lon=130.5
+https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5
 ```
 
 <img src=open-api_get001.png>
@@ -52,7 +52,7 @@ https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date2012-08-01&lat=30.2
 
 
 ```
-https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date2012-08-01&lat=30.2&lon=130.5&format=JSON
+https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5&format=JSON
 ```
 
 <img src=open-api_get002.png>
@@ -63,7 +63,7 @@ https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date2012-08-01&lat=30.2
 - request format xml
 
 ```
-https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date2012-08-01&lat=30.2&lon=130.5
+https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5
 ```
 
 <img src=open-api_get003.png>
@@ -72,6 +72,6 @@ https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date2012-08-01&lat=30.2
 
 
 ```
-https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date2012-08-01&lat=30.2&lon=130.5&format=JSON
+https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5&format=JSON
 ```
 <img src=open-api_get004.png>
