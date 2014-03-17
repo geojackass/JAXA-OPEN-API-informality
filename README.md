@@ -46,7 +46,7 @@ chmod +x sample003.html
 https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5
 ```
 
-<img src=open-api_get001.png>
+<img src=open-api_get001a.png>
 
 - request format JSON
 
@@ -55,7 +55,7 @@ https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.
 https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5&format=JSON
 ```
 
-<img src=open-api_get002.png>
+<img src=open-api_get002a.png>
 
 
 #### 指定範囲の物理量をすべて取得する 
@@ -66,7 +66,7 @@ https://joa.epi.bz/api/prcavg?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.
 https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5
 ```
 
-<img src=open-api_get003.png>
+<img src=open-api_get003a.png>
 
 - request format JSON
 
@@ -74,4 +74,4 @@ https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.
 ```
 https://joa.epi.bz/api/prcall?token=KOISURU-WAKUSEI_ver2&date=2012-08-01&lat=30.2&lon=130.5&format=JSON
 ```
-<img src=open-api_get004.png>
+<img src=open-api_get004a.png>
