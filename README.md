@@ -6,7 +6,7 @@ JAXA-OPEN-API-informality
 </br>
 <div align="right">20140317大友翔一</div>
 
-公式ページ [JAXA OPEN API](http://www.satnavi.jaxa.jp/jaxa_api_competition/)
+### 公式ページ [JAXA OPEN API](http://www.satnavi.jaxa.jp/jaxa_api_competition/)
 
 ####最重要確認事項　「ウェブブラウザで表示できること」
 
